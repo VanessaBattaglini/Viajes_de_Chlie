@@ -2,6 +2,13 @@ body {
     font-family: 'Open Sans';
     background-color: black;
 }
+.imagen {
+    height: 50px;
+    width: 50px;
+}
+.carousel-item {
+    max-height: 100vh;
+}
 .linea-divisoria {
     border-bottom: 1px solid white;
     margin: 20px auto;
