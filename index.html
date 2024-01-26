@@ -163,7 +163,7 @@
     </section>
     <!-- FORM -->
     <main class="container">
-        <h2 class="text-center text-white fw-bold my-5">CONTACTO</h2>
+        <h2 id="contacto" class="text-center text-white fw-bold my-5">CONTACTO</h2>
         <div class="linea-divisoria"></div>
         <form>
             <!--  INPUT  -->
@@ -181,11 +181,16 @@
                 <label class="mb-2 text-white">Mensaje</label>
                 <textarea class="form-control"></textarea>
             </div>
-            <!--  BOTON -->
+            <!-- TOOLTIPS -->
             <div class="my-3">
-                <button class="btn btn-info text-light ">Enviar</button>
+                <button type="button" class="btn btn-lg btn-success" data-bs-toggle="popover" title="Popover title"
+                    data-content="Mensaje correcto?">
+                    Click to toggle popover
+                </button>
             </div>
         </form>
+        
+
     </main>
     <footer>
         <div class="container-fluid bg-info d-sm-flex d-md-block justify-content-center">
