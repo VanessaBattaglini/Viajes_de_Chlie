@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Viajes de Chile</title>
+    <!-- LINK FAVICON -->
+    <link rel="shortcut icon" href="./assets/img/viajes.svg" type="image/x-icon">
+    <!-- LINK BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- LINK GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
+    <!-- LINK FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/d6487433d7.js" crossorigin="anonymous"></script>
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+
+<body>
+    <nav  id="navbar" class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Viajes Chile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- CARRUCEL -->
+    <section>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="llamas">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/card2.jpg" class="d-block w-100" alt="paisaje">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/card3.jpg" class="d-block w-100" alt="garzas">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- SECTIONS -->
+    <article id="quienes-somos" class="container">
+        <h2  id="title" class="text-center text-white fw-bold my-4">¿QUIÉNES SOMOS?</h2>
+        <div class="linea-divisoria"></div>
+        <!-- SECTIONS -->
+        <div id="media-section" class="row justify-content-center">
+        <!--  SECTION 1 -->
+        <div id="sections" class="col-md-3">
+            <button type="button" class="btn btn-primary btn-lg w-100"><i class="fa-solid fa-plane fa-3x my-3"></i></button>
+            <p class="my-3 text-white">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit suscipit iusto eveniet tempore vero unde, aliquam inventore. Quas veniam veritatis quasi tempora consequuntur. Id nihil adipisci est voluptate amet, itaque omnis quis commodi molestiae inventore eius magni repellendus repudiandae. Rem facilis suscipit asperiores minima? Iure est itaque cupiditate obcaecati necessitatibus.
+            </p>
+        </div>
+        <!--  SECTION 2 -->
+        <div id="sections" class="col-md-3">
+            <p class="my-3 text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam pariatur ut, ratione at eius illo beatae reiciendis vel deleniti iure aliquam! Consequatur ullam delectus aut sequi totam dicta, modi ipsum consectetur dignissimos quod perspiciatis facilis ipsa, rem atque excepturi fugit. Beatae debitis hic, veniam ratione necessitatibus obcaecati soluta aliquam delectus.
+            </p>
+            <button type="button" class="btn btn-primary btn-lg w-100"><i class="fa-brands fa-asymmetrik fa-3x my-3"></i></button>
+        </div>
+        <!--  SECTION 3 -->
+        <div id="sections" class="col-md-3">
+            <button type="button" class="btn btn-primary btn-lg w-100"><i class="fa-solid fa-route fa-3x my-3"></i></button>
+            <p class="my-3 text-white">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum repellendus praesentium quis fugit non, cupiditate sint laborum quidem harum fugiat quo adipisci, dolorem consectetur possimus vero! Aspernatur soluta porro illum doloribus atque dolore rem quis dignissimos blanditiis nemo eos voluptate fugiat cumque, impedit veritatis, beatae laborum. Quasi veniam sunt atque?
+            </p>
+        </div>
+        </div>
+    </article>
+    <!-- CARDS -->
+    <section class="container">
+        <h2 class="text-center text-white fw-bold my-5">DESTACADOS</h2>
+        <div class="linea-divisoria"></div>
+        <div class="row">
+            <div class="col-12 col-md-3 py-2">
+                <div class="card">
+                    <img src="./assets/img/card1.jpg" class="card-img-top" alt="nieve">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Lorem ipsum dolor sit amet</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Explicabo iure sint, perspiciatis distinctio molestias nihil
+                            repudiandae neque rem adipisci repellendus libero illo quo
+                            blanditiis, velit quasi ad, recusandae voluptates officia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 py-2">
+                <div class="card">
+                    <img src="./assets/img/card2.jpg" class="card-img-top" alt="montaña">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Consectetur adipisicing elit</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Explicabo iure sint, perspiciatis distinctio molestias nihil
+                            repudiandae neque rem adipisci repellendus libero illo quo
+                            blanditiis, velit quasi ad, recusandae voluptates officia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 py-2">
+                <div class="card">
+                    <img src="./assets/img/card3.jpg" class="card-img-top" alt="garza">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Sed do eiusmod tempor incididunt ut labore</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Explicabo iure sint, perspiciatis distinctio molestias nihil
+                            repudiandae neque rem adipisci repellendus libero illo quo
+                            blanditiis, velit quasi ad, recusandae voluptates officia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 py-2">
+                <div class="card">
+                    <img src="./assets/img/card4.jpg" class="card-img-top" alt="bosque">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Ut enim at minim Veniam</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Explicabo iure sint, perspiciatis distinctio molestias nihil
+                            repudiandae neque rem adipisci repellendus libero illo quo
+                            blanditiis, velit quasi ad, recusandae voluptates officia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FORM -->
+    <main class="container">
+        <h2 class="text-center text-white fw-bold my-5">CONTACTO</h2>
+        <div class="linea-divisoria"></div>
+        <form>
+            <!--  INPUT  -->
+            <div class="form-group mb-4">
+                <label class="mb-2 text-white">Nombre</label>
+                <input class="form-control" />
+            </div>
+            <!--  INPUT  -->
+            <div class="form-group mb-4">
+                <label class="mb-2 text-white">Asunto</label>
+                <input class="form-control" />
+            </div>
+            <!--  INPUT  -->
+            <div class="form-group">
+                <label class="mb-2 text-white">Mensaje</label>
+                <textarea class="form-control"></textarea>
+            </div>
+            <!--  BOTON -->
+            <div class="my-3">
+                <button class="btn btn-info text-light ">Enviar</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="container-fluid bg-info">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h2 class="text-light fw-bold">
+                        VIAJES CHILE
+                    </h2>
+                    <!-- ICONOS -->
+                </div>
+                <div class="col-12 col-md-8">
+                    <div class="row text-light">
+                        <div class="col-2">
+                            <i class="fa-brands fa-square-github fa-4x"></i>
+                        </div>
+                        <div class="col-2">
+                            <i class="fa-solid fa-circle-info fa-4x"></i>
+                        </div>
+                        <div class="col-2">
+                            <i class="fa-brands fa-twitter fa-4x"></i>
+                        </div>
+                        <div class="col-2">
+                            <i class="fa-brands fa-facebook fa-4x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- SCRIPT JAVASCRIPT -->
+    <script src="./assets/js/script.js"></script>
+    <!-- SCRIPT BOOSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- SCRIPT JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</body>
+
+</html>
