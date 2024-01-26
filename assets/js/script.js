@@ -1,10 +1,9 @@
-// TOOLTIPS
-const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
-
+// POPOVER
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
 const popoverList = [...popoverTriggerList].map(popoverTriggerEl =>
-    new bootstrap.Popover(popoverTriggerEl));
+    new bootstrap.Popover(popoverTriggerEl))
 
-// TITULOS DESTACADO 
+// TITULO CONTACTO 
 // DOBLECLICK
 $(document).ready(function () {
     $("h2").dblclick(function () {
